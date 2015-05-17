@@ -1,0 +1,72 @@
+John Snow
+180
+Arya Stark
+160
+Brienne of Tarth
+184
+Daenerys Targaryen
+170
+Tyrion Lannister
+120
+Daario Naharis
+181
+Margaery Tyrell
+200
+Cersei Lannister
+178
+Sam Tarly
+175
+Hodor
+5
+Podrick Payne
+176
+Gilly
+163
+Jamie Lannister
+180
+Theon Greyjoy
+40
+Sansa Stark
+120
+Aemon
+190
+Jorah Mormont
+210
+Bran Stark
+220
+Ramsay Bolton
+150
+Melisandre
+240
+Joffrey Baratheon
+93
+Rickon Stark
+80
+Robb Stark
+280
+Petyr Baelish
+240
+Jaqen H'ghar
+290
+Drogo
+124
+Tywin Lannister
+190
+Ilen Payne
+160
+Varys
+220
+Loras Tyrell
+180
+Ygritte
+50
+Ollena Tyrell
+296
+Ser Davos
+180
+Shae
+7
+Yara Greyjoy
+90
+Doran Martell
+180

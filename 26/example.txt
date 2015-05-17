@@ -1,21 +1,26 @@
-23
-100000
-Local avenue
-239
-999999
-Another st
-2342
-9000000
-Brook Ave.
-905
-2389234
-Rushy Street
-349
-10000000
-Not creative enough
-69
-10900000
-New Street
-90
-1238342
-Another unimportant st.
+John Snow
+180
+Arya Stark
+160
+Brienne of Tarth
+184
+Daenerys Targaryen
+170
+Tyrion Lannister
+120
+Daario Naharis
+181
+Margaery Tyrell
+173
+Cersei Lannister
+178
+Sam Tarly
+175
+Hodor
+190
+Podrick Payne
+176
+Gilly
+163
+Jamie Lannister
+180
