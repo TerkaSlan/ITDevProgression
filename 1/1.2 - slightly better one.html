@@ -1,0 +1,96 @@
+<!--Create a simple web page with your curriculum vitae. Mandatory elements:
+ simple table with 2 columns and 4 rows at least;
+ two pictures;
+ one bulleted/numbered list with 3 items at least;
+ two links to external pages at least.-->
+
+<!DOCTYPE html> <!-- The <!DOCTYPE> declaration is an instruction to the web browser about what version of HTML the page is written in.-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CV</title>
+	<style type="text/css">
+		body{
+			background-color: #E0F0FF;
+			font-family: Gisha;
+			height: 700px;
+		}
+		h1{
+			text-align: center;
+		}
+		h2{
+			color: purple;
+		}
+		
+		#parent{
+			height: 150px;
+			width: 100%;
+		}
+		#pictures{
+			float:right;
+			margin-right: 50px;
+			display: inline-block;
+		}
+		#info{
+			float:left;
+			display: inline-block;
+			margin-left: 50px;
+		}
+		table{
+			text-align: center;
+			margin-left: 30px;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		a:hover{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+		<h1>Curriculum vitae</h1>
+		<div id="parent">
+			<div id="info">
+				<h2>More about me:</h2>
+				<ol>
+					<li>Name: Cat</li>
+					<li>Age: 5</li>
+					<li>Address: Catville</li>
+				</ol>
+			</div>
+			<div id="pictures">
+				<h2>My awesome pics:</h2>
+				<img src="cat2.jpg" alt="cat2" width="200px">
+				<img src="cat.jpg" alt="cat"  width="200px">
+			</div>
+
+		</div>
+		<table width="600px" cellpadding="10px" style="float: center">	<!--width + center not html5 supported-->
+			<th>Occupation</th>
+			<th>Year</th>
+			<th>Position</th>
+			<th>What was I actually doing</th>
+			<tr align="center">
+				<td><a href="#">Cat.com</a></td>
+				<td>2013-2015</td>
+				<td>CEO, Founder</td>
+				<td onclick="myFunction()"><a href="#">Licking my ballz</a></td>
+			</tr>
+			<tr align="center">
+				<td><a href="#">MIT</a></td>
+				<td>2010-2013</td>
+				<td>student</td>
+				<td onclick="myFunction()"><a href="#">Licking my ballz</a></td>
+			</tr>
+		</table>
+
+		<script>
+			function myFunction() {
+   				alert("Want a proof?");
+			}
+</script>
+</body>
+
+</html>

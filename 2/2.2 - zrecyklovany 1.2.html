@@ -1,0 +1,105 @@
+<!--Modify the HTML page, which is a part of this assignment, to fulfil these requirements:
+ there is a background image displayed along the left side of the page only,
+ all level-2 headings are green with font size doubled when compared to normal text,
+ one paragraph of your choice is centred and its width is 300px only,
+ an image must be displayed constantly in the top right zone of the page, regardless of scrolling.-->
+
+<!DOCTYPE html> <!-- The <!DOCTYPE> declaration is an instruction to the web browser about what version of HTML the page is written in.-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CV</title>
+	<style type="text/css">
+		body{
+			background-color: #E0F0FF;
+			font-family: Gisha;
+			height: 1700px;
+		}
+		h1{
+			text-align: center;
+		}
+		h2{
+			color: green;
+			font-size: 200%;/*all level-2 headings are green with font size doubled when compared to normal text*/
+		}
+		
+		#parent{
+			height: 150px;
+			width: 100%;
+		}
+		#pictures{
+			float:right;
+			background-image: url(bckg.jpg); /* there is a background image displayed along the left side of the page only */
+			margin-right: 50px;
+			display: inline-block;
+		}
+		#info{
+			float:left;
+			display: inline-block;
+			margin-left: 50px;
+		}
+		table{
+			text-align: center;
+			margin-left: 30px;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		a:hover{
+			color: blue;
+		}
+		p{
+			margin-left: auto;
+    		margin-right: auto;
+			width: 300px; /* one paragraph of your choice is centred and its width is 300px only*/
+		}
+		#pic{
+			top: 0;		/*an image must be displayed constantly in the top right zone of the page, regardless of scrolling*/
+			position: fixed;
+		}
+	</style>
+</head>
+<body>
+		<h1>Curriculum vitae</h1>
+		<img src="pic.jpg"	width="200px" id="pic">
+		<div id="parent">
+			<div id="info">
+				<h2>More about me:</h2>
+				<ol>
+					<li>Name: Cat</li>
+					<li>Age: 5</li>
+					<li>Address: Catville</li>
+				</ol>
+			</div>
+			<div id="pictures">
+				<h2>My awesome pics:</h2>
+				<img src="cat2.jpg" alt="cat2" width="200px">
+				<img src="cat.jpg" alt="cat"  width="200px">
+			</div>
+
+		</div>
+		<table width="600px" cellpadding="10px" style="float: center">	<!--width + center not html5 supported-->
+			<th>Occupation</th>
+			<th>Year</th>
+			<th>Position</th>
+			<th>What was I actually doing</th>
+			<tr align="center">
+				<td><a href="#">Cat.com</a></td>
+				<td>2013-2015</td>
+				<td>CEO, Founder</td>
+				<td>Licking my ballz</td>
+			</tr>
+			<tr align="center">
+				<td><a href="#">MIT</a></td>
+				<td>2010-2013</td>
+				<td>student</td>
+				<td>Licking my ballz</td>
+			</tr>
+		</table>
+		<p>Random paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sem nisl, faucibus non ornare ac, condimentum at enim. Nam at justo ac mi pharetra blandit. Sed eu bibendum nulla. Sed eleifend sit amet dolor at eleifend. Nam dignissim mauris dictum mauris suscipit eleifend. Donec nibh enim, ultrices et porta sit amet, fringilla non dui. Quisque sodales, orci ut iaculis malesuada, felis est malesuada tellus, fringilla sollicitudin mauris tortor quis justo.
+
+		</p>
+</body>
+
+</html>
